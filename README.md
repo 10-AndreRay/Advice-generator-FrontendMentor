@@ -1,5 +1,5 @@
 # Advice-generator-FrontendMentor
- Um desafio nível jr do frotend mentor, um gerador de conselhos aleatórios
+ Um desafio do frotend mentor, um gerador de conselhos aleatórios.
  
 ## Link do projeto:
 https://10-andreray.github.io/Advice-generator-FrontendMentor/
