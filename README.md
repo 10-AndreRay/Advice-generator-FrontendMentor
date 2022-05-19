@@ -3,6 +3,10 @@
  
 ## Link do projeto:
 https://10-andreray.github.io/Advice-generator-FrontendMentor/
+</br>
+</br>
+![advice](https://user-images.githubusercontent.com/81325811/169198603-4dab520d-41dc-48ef-8b96-0070668844a1.png)
+</br>
 
 ## Desenvolvido com:
 -> HTML </br>
