@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Neon-Green-More: hsl(150, 100%, 75%);
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--Dark-Blue);
+}
+
+.container {
+    width: 400px;
+    height: 240px;
+    text-align: center;
+    background-color: var(--Dark-Grayish-Blue);
+    color: var(--Light-Cyan);
+    box-sizing: border-box;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.container > h3{
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: var(--Neon-Green);
+}
+
+.container > p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    height: 83px;
+    max-height: 83px;
+}
+
+.style {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    height: 2px;
+    width: 44%;
+    background-color: var(--Grayish-Blue);
+}
+
+.bar{
+    width: 6px;
+    height: 15px;
+    background: var(--Light-Cyan);
+    position: relative;
+    top: -7px;
+    border-radius: 10px;
+}
+
+.ball {
+    height: 50px;
+    width: 50px;
+    background-color: var(--Neon-Green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.ball > i {
+    color: var(--Dark-Blue);
+    font-size: 25px;
+}
+
+.ball:hover{
+    box-shadow: 0px 0px 20px var(--Neon-Green-More);
+}
+
+@media (max-width: 400px) {
+    .container > p {
+        height: 95px;
+        max-height: 95px;
+        font-size: 16px;
+    }
+
+    .ball {
+        top: 18px;
+    }
+
+    .bar {
+        width: 5px;
+    }
+}
