@@ -9,9 +9,14 @@ https://10-andreray.github.io/Advice-generator-FrontendMentor/
 </br>
 
 ## Desenvolvido com:
--> HTML </br>
--> CSS </br>
--> Javascript </br>
+<div>
+ <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">  
+
+ <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> 
+
+ <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+</div>
+</br>
 
 ## Conhecimento adquirido:
 Uso do fetch para fazer requisições para APi's, tratamento das promises geradas com .then e .catch e eventos ativados com o carregamento da página.
